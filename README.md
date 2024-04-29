@@ -1,4 +1,4 @@
-# Wisdom of a grain of sand
+# Wisdom of the trees
 
 Page: [wott.cc](https://wott.cc/) \
 Studio: c本y crew
