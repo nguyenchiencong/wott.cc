@@ -1,0 +1,38 @@
+$content-width: 800px;
+$main: #52A091;
+$font-style: 'Alegreya Sans', sans-serif;
+$font-color: #262626;
+$link-color: #425469;
+$link-hover-color: $main;
+$heading-font: "Alegreya", serif;
+$heading-font-color: #425469;
+$light: #E7EDF4;
+$header:  #1D1425;
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html.dark {
+  background-color: #262626;
+
+  input {
+    background-color: #404040;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark,
+  [data-theme="dark"] {
+    $main: #1aaf67 !global;
+    $font-color: #F0F0F4 !global;
+    $link-color: #4DE49B !global;
+    $link-hover-color: $main !global;
+    $heading-font-color: #4DE49B !global;
+  }
+}

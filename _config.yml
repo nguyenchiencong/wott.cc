@@ -1,0 +1,17 @@
+# Site Settings
+title: Wisdom of a the trees - Cay crew
+email: nguyen.chiencong@gmail.com
+tagline: Wisdom of a the trees | A RPG with bits of wisdom.
+description: >
+  The game -- Wisdom of a the trees -- is a RPG game. It leads the player through various existential questions which can be reflected to real life events.
+baseurl: ""
+url: "https://wott.cc"
+github_username:  nguyenchiencong
+# Build Settings
+plugins:
+  - jekyll-seo-tag
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
